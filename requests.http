@@ -5,3 +5,6 @@ GET {{BASE_URL}}
 
 ###
 GET {{BASE_URL}}/api
+
+###
+GET {{BASE_URL}}/api/todo
