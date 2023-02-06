@@ -7,4 +7,26 @@ GET {{BASE_URL}}
 GET {{BASE_URL}}/api
 
 ###
+POST {{BASE_URL}}/api/todo
+Content-Type: application/json
+
+{
+    "title": "Go Grocery Shopping"
+}
+
+###
 GET {{BASE_URL}}/api/todo
+
+###
+GET {{BASE_URL}}/api/todo/63e090ba68529560d8efd9d1
+
+###
+PATCH {{BASE_URL}}/api/todo/63e090ba68529560d8efd9d1
+Content-Type: application/json
+
+{
+    "done": true
+}
+
+###
+DELETE {{BASE_URL}}/api/todo/63e08b653cbe7f972b50c0e1
